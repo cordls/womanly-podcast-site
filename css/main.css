@@ -1,0 +1,39 @@
+html * {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#main-container {
+    text-align: center;
+}
+
+#logo {
+    width: 300px;
+}
+
+#about {
+    text-align: center;
+}
+@media (min-width: 576px) {
+    #about {
+        text-align: left;
+    }
+}
+
+#tagline {
+    font-family: 'Prata', serif;
+    font-size: 2rem;
+}
+
+.fa-brands {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f88e65;
+    color: #29242b;
+    border-radius: 0.5rem;
+    padding: 5px;
+  }
+  
+.fa-brands:hover {
+    opacity: 0.7;
+  }
